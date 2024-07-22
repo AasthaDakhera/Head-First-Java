@@ -1,0 +1,14 @@
+Object 1:
+title - Gone with the Stock
+genre - Tragic
+rating - -2
+
+Object 2:
+title - Lost in Cubicle Space
+genre - Comedy
+rating - 5
+
+Object 3:
+title - Byte Club
+genre - Tragic but ultimately uplifting
+rating - 127

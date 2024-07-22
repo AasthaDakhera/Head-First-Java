@@ -1,0 +1,17 @@
+Television class
+
+Instance variables :
+1.model
+2.isOn
+3.volume
+4.channel
+5.screenSize
+
+Methods:
+1.turnOnOff()
+2.setVolume(int volume)
+3.setChannel(int channel)
+4.increaseVolume()
+5.decreaseVolume()
+6.nextChannel()
+7.prevChannel()
