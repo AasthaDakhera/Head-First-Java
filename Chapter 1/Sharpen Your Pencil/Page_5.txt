@@ -1,0 +1,47 @@
+int size = 27;
+//declare a variable size of integer type and initialize it with value 27.
+
+String name = "Fido";
+//declare a string name and initialize it with value "Fido".
+
+Dog myDog = new Dog(name, size);
+//create an object of dog class and assign it to myDog variable.
+
+x = size - 5;
+//subtract 5 from size variable and assign it to a variable x.
+
+if (x < 15) myDog.bark(8);
+//if value of x is less than 15 call the function bark.
+
+while (x > 3) {
+//run the loop untill x greater than 3.
+myDog.play();
+//call the function play.
+}
+
+int[] numList = {2, 4, 6, 8};
+//declare an array numlist of integer type initialized with value 2,4,6,8.
+
+System.out.print("Hello");
+//print out "Hello".
+
+System.out.print("Dog: " + name);
+//print out "Dog:Fido".
+
+String num = "8";
+//declare a string num and initialize it with value 8.
+
+int z = Integer.parseInt(num);
+//declare a variable z of int type and assign it converted integer value of string num.
+
+try {
+//create a try bolck.
+readTheFile("myFile.txt");
+//read the file "myFile.txt".
+}
+
+catch (FileNotFoundException ex) {
+//create a catch block.
+System.out.print("File not found.");
+//print out "File not found".
+}
