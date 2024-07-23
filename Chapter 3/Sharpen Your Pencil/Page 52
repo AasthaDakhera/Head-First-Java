@@ -1,0 +1,12 @@
+int x = 34.5;                -                Wrong
+boolean boo = x;             -                Wrong
+int g = 17;                  -                Legal
+int y = g;                   -                Legal
+y = y + 10;                  -                Legal
+short s;                     -                Legal
+s = y;                       -                Wrong
+byte b = 3;                  -                Legal
+byte v = b;                  -                Legal
+short n = 12;                -                Legal
+v = n;                       -                Wrong
+byte k = 128;                -                Wrong

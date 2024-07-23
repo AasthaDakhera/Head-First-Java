@@ -1,0 +1,8 @@
+What is the current value of pets[2]?
+Ans : Since, pets[2] not assigned value it's value is null.
+
+What code would make pets[3] refer to one of the
+two existing Dog objects?
+Ans: pets[3] = pets[0]
+           Or
+     pets[3] = pets[1]
