@@ -1,0 +1,25 @@
+#Method
+int calcArea(int height, int width) {
+return height * width;
+}
+
+#Method calls
+int a = calcArea(7, 12);             -             legal
+
+short c = 7;                         -             legal
+calcArea(c,15);
+
+int d = calcArea(57);                -             wrong
+
+calcArea(2,3);                       -             legal
+
+long t = 42;                         -             wrong
+int f = calcArea(t,17);
+
+int g = calcArea();                  -             wrong
+
+calcArea();                          -             wrong
+
+byte h = calcArea(4,20);             -             wrong
+
+int j = calcArea(2,3,5);             -             wrong
