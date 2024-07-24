@@ -1,0 +1,34 @@
+#ArrayList                                                #Regular Array
+
+ArrayList<String> myList = new                            String [] myList = new String[2];
+ArrayList<String>();
+
+String a = "whoohoo";                                     String a = "whoohoo";
+
+String b = "Frog";                                        String b = "Frog";
+
+myList.add(b);                                            myList[0] = a;
+
+int theSize = myList.size();                              int theSize = myList.length;
+
+String str = myList.get(1);                               String str = myList[1];
+
+myList.remove(1);                                         myList[1] = null;
+
+boolean isIn = myList.contains(b);                        boolean isIn = find(b,myList);
+                                                          boolean find(String s, String[] l){
+                                                               for(String str : l){
+                                                                   if(str.equals(s)){
+                                                                      return true;
+                                                                   }
+                                                               }
+                                                               return false;
+                                                          }
+                                                          OR
+                                                          boolean isIn = false;
+                                                          for (String item : myList) {
+                                                              if (b.equals(item)) {
+                                                                 isIn = true;
+                                                                 break;
+                                                              }
+                                                          }
