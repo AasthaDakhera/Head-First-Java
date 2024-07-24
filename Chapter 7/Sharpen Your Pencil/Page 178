@@ -1,0 +1,7 @@
+Class	          Superclasses	        Subclasses
+
+Musician	      None	                Rock Star, Bass Player, Concert Pianist
+Rock Star	      Musician	            None
+Fan	              None	                None
+Bass Player	      Musician	            None
+Concert Pianist	  Musician	            None

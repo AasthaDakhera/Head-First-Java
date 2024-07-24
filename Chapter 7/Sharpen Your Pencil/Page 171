@@ -1,0 +1,35 @@
+public class Doctor {
+   boolean worksAtHospital;
+   void treatPatient() {
+      // perform a checkup
+   }
+}
+public class FamilyDoctor extends Doctor {
+   boolean makesHouseCalls;
+   void giveAdvice() {
+      // give homespun advice
+   }
+}
+public class Surgeon extends Doctor {
+   void treatPatient() {
+      // perform surgery
+   }
+   void makeIncision() {
+     // make incision (yikes!)
+   }
+}
+
+Q:How many instance variables does Surgeon have?
+A:1
+Q:How many instance variables does FamilyDoctor have?
+A:2
+Q:How many methods does Doctor have?
+A:1
+Q:How many methods does Surgeon have?
+A:2
+Q:How many methods does FamilyDoctor have?
+A:2
+Q:Can a FamilyDoctor do treatPatient()?
+A:Yes
+Q:Can a FamilyDoctor do makeIncision()?
+A:No

@@ -1,0 +1,13 @@
+Put a check next to the relationships that make sense.
+
+Oven extends Kitchen
+Guitar extends Instrument ✅
+Person extends Employee
+Ferrari extends Engine
+FriedEgg extends Food ✅
+Beagle extends Pet ✅
+Container extends Jar
+Metal extends Titanium
+GratefulDead extends Band ✅
+Blonde extends Smart
+Beverage extends Martini
