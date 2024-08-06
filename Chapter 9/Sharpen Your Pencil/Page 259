@@ -1,0 +1,14 @@
+//Not legal constructors
+
+//Constructors                                                              //Error
+public SonOfBoo(int i, String s) {                       -                  cannot resolve symbol
+                                                                            symbol:constructor Boo()
+}
+
+public SonOfBoo(String a, String b, String c) {          -                  cannot resolve symbol
+super(a, b);                                                                symbol : constructor Boo(java.lang.String,java.lang.String)
+}
+
+public SonOfBoo(int i, int x, int y) {                   -                  cannot resolve symbol
+super(i, "star");                                                           symbol : constructor Boo(int,java.lang.String)
+}
