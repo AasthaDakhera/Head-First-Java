@@ -1,0 +1,22 @@
+private void takeDogs(List<Dog> dogs) { }
+private void takeAnimals(List<Animal> animals) { }
+private void takeSomeAnimals(List<? extends Animal> animals) { }
+private void takeObjects(ArrayList<Object> objects) { }
+
+Compiles ?
+
+❑ takeAnimals(new ArrayList<Animal>());       -  It will Compile
+❑ takeDogs(new ArrayList<Animal>());          -  It will not Compile
+❑ takeAnimals(new ArrayList<Dog>());          -  It will not Compile
+❑ takeDogs(new ArrayList<>());                -  It will Compile
+❑ List<Dog> dogs = new ArrayList<>();         -  It will Compile
+takeDogs(dogs);
+❑ takeSomeAnimals(new ArrayList<Dog>());      -  It will Compile
+❑ takeSomeAnimals(new ArrayList<>());         -  It will Compile
+❑ takeSomeAnimals(new ArrayList<Animal>());   -  It will Compile
+❑ List<Animal> animals = new ArrayList<>();   -  It will Compile
+takeSomeAnimals(animals);
+❑ List<Object> objects = new ArrayList<>();   -  It will not Compile
+takeObjects(objects);
+❑ takeObjects(new ArrayList<Dog>());          -  It will not Compile
+❑ takeObjects(new ArrayList<Object>());       -  It will Compile

@@ -1,0 +1,7 @@
+lambda expression
+
+For sorting by bpm
+songs.sort((one,two)->one.getBpm()-two.getBpm());
+
+For sorting by Bpm in descending order
+songs.sort((one,two)->two.getTitle().compareTo(one.getTitle())) ;

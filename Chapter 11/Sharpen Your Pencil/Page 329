@@ -1,0 +1,8 @@
+Write in your idea and pseudocode (or
+better, REAL code) for implementing the
+compareTo() method in a way that will
+sort() the Song objects by title.
+
+public int compareTo(Song s2){
+   return title.compareTo(s2.getTitle());
+}
