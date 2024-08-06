@@ -1,0 +1,41 @@
+1. public class Foo {             //Compile
+     static int x;
+     public void go() {
+       System.out.println(x);
+     }
+   }
+
+2.public class Foo2 {             //Not Compile
+    int x;                        //static method can't access non-static variable.
+    public static void go() {
+       System.out.println(x);
+     }
+  }
+
+3.public class Foo3 {             //Not Compile
+    final int x;                  //final is uninitialized
+    public void go() {
+       System.out.println(x);
+    }
+  }
+
+4.public class Foo4 {             //Compile
+    static final int x = 12;
+    public void go() {
+      System.out.println(x);
+    }
+  }
+
+5.public class Foo5 {             //Compile
+    static final int x = 12;
+    public void go(final int x) {
+      System.out.println(x);
+    }
+  }
+
+6.public class Foo6 {             //Compile
+    int x = 12;
+    public static void go(final int x) {
+      System.out.println(x);
+    }
+  }
