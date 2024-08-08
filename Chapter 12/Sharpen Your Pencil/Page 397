@@ -1,0 +1,10 @@
+//Which of these interfaces has a Single Abstract Method and can
+  therefore be implemented as a lambda expression?
+
+Answer:
+
+BiPredicate has a single abstract method test(T t, U u)
+ActionListener has a single abstract method actionPerformed(ActionEvent e)
+Iterator has two abstract methods hasNext() and next()
+Function has a single abstract method apply(T t)
+SocketOption has two abstract methods name() and type()

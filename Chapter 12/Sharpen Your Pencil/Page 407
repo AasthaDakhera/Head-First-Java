@@ -1,0 +1,10 @@
+//Try annotating this code yourself.
+  What do each of the filters do?
+  What does the map do?
+
+String songTitle = "With a Little Help from My Friends";
+List<String> result = allSongs.stream()    //create stream
+                              .filter(song -> song.getTitle().equals(songTitle)) //filter songs having title = songTitle
+                              .map(song -> song.getArtist())    //map filtered songs to their artist
+                              .filter(artist -> !artist.equals("The Beatles"))   //filter out songs having artist "The Beatles"
+                              .collect(Collectors.toList());    //collect the remaining artist in a list

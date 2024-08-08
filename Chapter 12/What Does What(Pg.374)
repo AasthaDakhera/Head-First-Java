@@ -1,0 +1,17 @@
+//matching each operation name to the description of what it does.
+
+filter         -      Only allows elements that match the
+                      given criteria to remain in the Stream
+skip           -      This is the number of elements at the start
+                      of the Stream that will not be processed
+limit          -      Sets the maximum number of elements
+                      that can be output from this Stream
+distinct       -      Use this to make sure duplicates are removed
+sorted         -      States the result of the stream should
+                      be ordered in some way
+map            -      Changes the current element in the
+                      stream into something else
+dropWhile      -      While a given criteria is true, will not
+                      process elements
+takeWhile      -      Will only process elements while the
+                      given criteria is true
