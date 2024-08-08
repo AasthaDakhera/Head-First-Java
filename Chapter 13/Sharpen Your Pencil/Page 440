@@ -1,0 +1,31 @@
+task is to create two different legal try/catch structures to accurately represent the class diagram given
+
+Structure 1 :
+try {
+x.doRisky();
+}
+catch(BoinkEx a) {
+}
+catch(BiffEx b) {
+}
+catch(BarEx c) {
+}
+catch(FooEx d) {
+}
+catch(BazEx){
+}
+
+Structure 2 :
+try {
+x.doRisky();
+}
+catch(Boink a) {
+}
+catch(BarEx b) {
+}
+catch(BiffEx c) {
+}
+catch(FooEx d) {
+}
+catch(BazEx){
+}

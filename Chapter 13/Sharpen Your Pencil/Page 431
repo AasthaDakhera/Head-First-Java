@@ -1,0 +1,13 @@
+//Which of these do you think might throw an exception that the compiler should care
+  about?
+
+ Things you want to do :                          What might go wrong:
+
+✅Connect to a remote server                        The server is down
+✅Access an array beyond its length                 Index out of bound
+✅Display a window on the screen                    Display not supported
+✅Retrieve data from a database                     Database connection issues, incorrect SQL queries
+✅See if a text file is where you think it is       File not found, incorrect path
+✅Create a new file                                 Incorrect path, permission etc.
+✅Read a character from the command line            Input/output issue
+
