@@ -1,0 +1,22 @@
+Write/draw in the chain of classes the client
+uses to read from the server.
+
+To read text from a SocketChannel :
+
+SocketAddress serverAddr = new InetSocketAddress("127.0.0.1", 3000);
+SocketChannel socketChannel = SocketChannel.open(serverAddr);
+Reader reader = Channels.newReader(socketChannel, StandardCharsets.UTF_8);
+BufferedReader bufferedReader = new BufferedReader(reader);
+String message = bufferedReader.readLine();
+
+Write/draw in the chain of classes the client
+uses to send something to the server.
+
+To send text to a SocketChannel :
+
+SocketAddress serverAddr = new InetSocketAddress("127.0.0.1", 3000);
+SocketChannel socketChannel = SocketChannel.open(serverAddr);
+Writer writer = Channels.newWriter(socketChannel, StandardCharsets.UTF_8);
+PrintWriter printWriter = new PrintWriter(writer);
+writer.println("message to send");
+writer.print("another message");
