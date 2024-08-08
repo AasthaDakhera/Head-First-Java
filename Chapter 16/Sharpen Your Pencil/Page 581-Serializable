@@ -1,0 +1,12 @@
+Which of these do you think are, or should be,
+serializable? If not, why not?
+
+Object type          Serializable?         If not, why not?
+Object               Yes
+String               Yes
+File                 No                    Represents file paths, not content, works for the current execution of the JVM.
+Date                 Yes
+OutputStream         No                    Represents active data streams, not meaningful.
+JFrame               Yes
+Integer              Yes
+System               No                    Provides access to system resources, Security risk.
