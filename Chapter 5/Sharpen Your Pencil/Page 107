@@ -1,0 +1,22 @@
+We built the test class and the SimpleStartup class. But we still haven’t made the
+actual game. Given the code on the opposite page and the spec for the actual
+game, write in your ideas for prep code for the game class
+
+METHOD public static void main (String [] args)
+  DECLARE an int variable to hold the number of user guesses, named numOfGuesses
+  CREATE the SimpleStartup Object
+  COMPUTE a random number between 0 and 4 that will be the starting location cell position
+  CREATE integer array of size 3 assign values random, random+1, random+2
+  INVOKE the setLocationCells() method
+  CREATE a boolean variable to hold state of the game SET it to true
+
+  WHILE the Startup is still alive:
+    GET user input from the command line
+    INVOKE checkYourself() method
+    INCREMENT number of user guesses
+    IF result is kill
+       SET the variable representing state of game false
+       PRINT the number of guesses made by the user
+    END IF
+  END WHILE
+END METHOD
