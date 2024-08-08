@@ -6,7 +6,7 @@ public class Candidate4_Mix4 {
         int count = 0;
         Candidate4_Mix4[] mixes = new Candidate4_Mix4[20];
         int i = 0;
-        while (i<19) {
+        while (i<19) {        //candidate condition in while
             mixes[i] = new Candidate4_Mix4();
             mixes[i].counter = mixes[i].counter + 1;
             count = count + 1;
@@ -16,7 +16,7 @@ public class Candidate4_Mix4 {
         System.out.println(count + " " + mixes[1].counter);
     }
     public int maybeNew(int index) {
-        if (index<1) {
+        if (index<1) {        //candidate condition in if
             Candidate4_Mix4 mix = new Candidate4_Mix4();
             mix.counter = mix.counter + 1;
             return 1;
