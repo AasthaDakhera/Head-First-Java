@@ -25,3 +25,16 @@ public class PingingClient {
         }
     }
 }
+
+//Output :
+//Networking established
+//09:27:06 Sent ping 0
+//09:27:07 Sent ping 1
+//09:27:08 Sent ping 2
+//09:27:09 Sent ping 3
+//09:27:10 Sent ping 4
+//09:27:11 Sent ping 5
+//09:27:12 Sent ping 6
+//09:27:13 Sent ping 7
+//09:27:14 Sent ping 8
+//09:27:15 Sent ping 9
