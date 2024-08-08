@@ -1,0 +1,15 @@
+I got the whole GUI, in my hands.                         -  JFrame
+Every event type has one of these.                        -  Listener interface
+The listener’s key method.                                -  actionPerformed()
+This method gives JFrame its size.                        -  setSize()
+You add code to this method but never call it.            -  paintComponent()
+When the user actually does something, it’s an _____ .    -  event
+Most of these are event sources.                          -  swing components
+I carry data back to the listener.                        -  event object
+An addXxxListener( ) method says an object is an _____ .  -  event source
+How a listener signs up.                                  -  addXxxListener()
+The method where all the graphics code goes.              -  paintComponent()
+I’m typically bound to an instance.                       -  inner class
+The “g” in (Graphics g) is really of this class.          -  Graphics2D
+The method that gets paintComponent( ) rolling.           -  repaint()
+The package where most of the Swingers reside.            -  javax.swing

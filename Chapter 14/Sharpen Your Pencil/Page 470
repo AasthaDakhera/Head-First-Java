@@ -1,0 +1,10 @@
+Match the widgets with the events they might cause.
+
+Widgets            Event Methods
+check box      -   itemStateChanged(), actionPerformed()
+text field     -   actionPerformed(), keyTyped(), focusGained()
+scrolling list -   itemStateChanged(), mousePressed()
+button         -   actionPerformed(), mousePressed()
+dialog box     -   windowClosing(), focusGained()
+radio button   -   itemStateChanged(), actionPerformed()
+menu item      -   actionPerformed()
